@@ -3,6 +3,7 @@ import Header from './component/Header';
 import Formulario from './component/Formulario';
 import CategoriasProvider from './context/CategoriasContext';
 import RecetasProvider from './context/RecetasContext';
+import ListaRecetas from './component/ListaRecetas';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <div className="row">
             <Formulario/>
           </div>
+          <ListaRecetas/>
         </div>
       </RecetasProvider>
     </CategoriasProvider>
